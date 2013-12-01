@@ -1,0 +1,29 @@
+[user]
+	name = Yuki Kotera
+	email = kotera@radicode.co.jp
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+[core]
+	quotepath = false
+	precomposeunicode=true
+	excludesfile = ~/.gitignore
+[alias]
+	s = status --short --branch
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+	di = diff
+	wd = diff --word-diff
+	pu = pull
+	pr = pull --rebase
+	tr = log --graph --pretty='format:%C(yellow)%h%Creset %s %Cgreen(%an)%Creset %Cred%d%Creset'
+	tree = log --graph --pretty=oneline --abbrev-commit --decorate
+
+[url "git@github.com:"]
+        pushInsteadOf = "git://github.com/"
+        pushInsteadOf = "https://github.com/"
+
