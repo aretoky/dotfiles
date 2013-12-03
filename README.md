@@ -16,7 +16,7 @@ eval "$(rbenv init -)"
 # nokogiri required libxml2-dev libxslt1-dev
 rbenv install 2.0.0-dev
 rbenv global  2.0.0-dev
-gem install bundler --pre
+rbenv exec gem install bundler --pre
 rbenv rehash
 ```
 
