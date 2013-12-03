@@ -103,5 +103,5 @@ PROMPT='%{$fg[yellow]%}[%~]'$'\n''%(?.%{$fg[green]%}\(^o^%)/.%{$fg[red]%}/(^o^%)
 REPORTTIME=3
 
 ulimit -c unlimited
-ulimit -n 10240
+#ulimit -n 10240
 
