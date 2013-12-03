@@ -11,7 +11,7 @@
 	precomposeunicode=true
 	excludesfile = ~/.gitignore
 [alias]
-	s = status --short --branch
+	s = status --short 
 	st = status
 	ci = commit
 	co = checkout
