@@ -1,4 +1,4 @@
-utoload -U compinit
+autoload -U compinit
 compinit -u
 
 autoload -U colors
