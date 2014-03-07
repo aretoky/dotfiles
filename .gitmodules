@@ -69,4 +69,4 @@
 	url = git://github.com/nanotech/jellybeans.vim.git
 [submodule ".vim/bundle/xslate-vim"]
 	path = .vim/bundle/xslate-vim
-	url = git@github.com:motemen/xslate-vim.git
+	url = https://github.com/motemen/xslate-vim.git
