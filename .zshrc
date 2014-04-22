@@ -50,6 +50,7 @@ setopt hist_no_store
 
 setopt correct
 setopt auto_cd
+setopt auto_pushd
 setopt pushd_ignore_dups
 setopt magic_equal_subst
 setopt complete_in_word
